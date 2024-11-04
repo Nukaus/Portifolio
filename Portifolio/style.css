@@ -42,22 +42,26 @@ header{
 .menu ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 1rem;
+    padding: 1rem 2rem;
     transition: background-color 0.3s; 
 }
 
 .menu ul li a:hover {
     background-color: #5C6F73; 
-    border-radius: 5px; 
+    border-radius: 5rem; 
 }
 section{
     padding: 20px;
-    margin: 0px 0px 3px;
-    box-shadow: 0px 0px 15px #A6A6A6;
+    margin: 0 0 0.2rem;
+    box-shadow: 0 0 1.5rem #A6A6A6;
 }
 main{
     background-color: white;
+}
+.imagem{
+    width: 100%;
+    height: auto;
 }
 
 .inicio{
@@ -68,14 +72,14 @@ main{
 }
 .container{
     display: flex;
-    pad: 20px;
+    padding:  0.2rem;
     margin: auto;
-    width: 750px;
+    width: 45rem;
 }
 .sobre, .imagem, .objetivos{
     color: black;
     flex: 1;
-    padding: 20px;
+    padding: 0.2rem;
     
 }
 
@@ -88,26 +92,26 @@ main{
     background-color: #F2F2F2;
     text-align: center;
     width: 20%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px #262626;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem #262626;
 }
 .esquerda_baixo{
     background-color: #F2F2F2;
     text-align: center;
     width: 20%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px #262626;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem #262626;
 }
 .container2{
     display: flex;
-    pad: 20px;
+    pad: 0.2rem;
     margin: auto;
-    width: 750px;
+    width: 45rem;
 }
 .skills, .projects, .skills2, .skills3{
     color: white;
     flex: 1;
-    padding: 20px;
+    padding: 0.2rem;
 }
