@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    padding: 2px;
+}
+main{
+    background-color: white;
+   
+   
+}
+.inicio{
+    background-image: url(186301.jpg);
+    background-size: cover;
+    background-position: no-repeat;
+    background-position: center;
+
+
+}
+.container{
+    
+    display: flex;
+    pad: 20px;
+    margin: auto;
+    width: 750px;
+}
+.sobre, .imagem, .objetivos{
+    color: white;
+    flex: 1;
+    padding: 20px;
+    
+}
+.detalhes{
+    display: flex;
+    background-image: url(491124.jpg);
+    background-size: cover;
+    background-position: no-repeat;
+    background-position: center;
+}
+.teste{
+    padding: 10px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    pad: 20px;
+    margin: auto;
+    width: 750px;
+}
+.skills, .projects, .skills2, .skills3{
+    color: white;
+    flex: 1;
+    padding: 20px;
+}
