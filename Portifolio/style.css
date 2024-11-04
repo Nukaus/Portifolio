@@ -10,29 +10,45 @@ header{
     color: white;
     background-image:linear-gradient(to top,#262626, #0D0D0D);
     width: 100%;
-    padding: 2px;
+    padding: 10px;
     box-shadow: 0px 0px 15px #0D0D0D;
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo h2 {
+    color: #ccc;
+    font-size: 14px;
+    margin: 0;
 }
 .menu ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .menu ul li {
-    margin: 0 15px; 
+    margin: 0 20px; 
 }
 
 .menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     transition: background-color 0.3s; 
 }
 
 .menu ul li a:hover {
-    background-color: #555; 
+    background-color: #5C6F73; 
     border-radius: 5px; 
 }
 section{
