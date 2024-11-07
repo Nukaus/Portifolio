@@ -103,7 +103,7 @@ section{
     flex: 1 1 100%;
     background-image: linear-gradient(to right, #5C6F73, #A6A6A6);
 }
-.esquerda_cima{
+.esquerda_cima, .esquerda_baixo{
     background-color: #c9c9c9;
     text-align: center;
     width: 20%;
@@ -111,14 +111,62 @@ section{
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem #262626;
 }
-.esquerda_baixo{
-    background-color: #c9c9c9;
-    text-align: center;
-    width: 20%;
-    padding: 0.2rem;
-    border-radius: 1rem;
-    box-shadow: 0 1rem 1rem #262626;
+.grafico {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%; 
+    height: 300px;
+    padding: 10px;
 }
+.descricao{
+    font-weight: bolder;
+    font-size: 0.5rem;
+}
+.descricao span{
+    display: block;
+}
+.barra p{
+    font-size: 0.6rem;
+}
+.barra {
+    width: 30px; 
+    background-image: linear-gradient(to top, #7EADBF, #A9B9D9);
+    border-radius: 5px 5px 0 0;
+
+}
+
+.barra1 {
+    height: 90%;
+}
+
+.barra2 {
+    height: 80%;
+}
+
+.barra3 {
+    height: 70%;
+}
+
+.barra4 {
+    height: 70%; 
+}
+.barra5 {
+    height: 60%; 
+}
+
+.barra6 {
+    height: 40%; 
+}
+
+.barra7 {
+    height: 85%;
+} 
+
+.hard_soft{
+    font: italic bolder 1.5rem 'Times new roman';
+}
+
 .container2{
     display: flex;
     flex: 1 1 100%;
