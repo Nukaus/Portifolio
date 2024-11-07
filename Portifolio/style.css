@@ -138,7 +138,6 @@ h3{
 }
 .skills, .skills1, .skills2{
     background-image: linear-gradient(to right, #8AA6BF, #C5D0D9, #A9B9D9);
-    width: 30%;
     flex: 1 1 100%;
     padding: 1.2rem;
     border-radius: 0.5rem;
