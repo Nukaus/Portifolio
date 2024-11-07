@@ -106,7 +106,6 @@ section{
 .esquerda_cima, .esquerda_baixo{
     background-color: #c9c9c9;
     text-align: center;
-    width: 20%;
     padding: 0.2rem;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem #262626;
@@ -130,7 +129,7 @@ section{
     font-size: 0.6rem;
 }
 .barra {
-    width: 30px; 
+    width: 4rem; 
     background-image: linear-gradient(to top, #7EADBF, #A9B9D9);
     border-radius: 5px 5px 0 0;
 
@@ -235,6 +234,47 @@ h3{
         flex-direction: column;
         padding: 0.5rem;
     }
+    .grafico{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .barra{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 0.5rem;
+        border-radius: 0.5rem;
+        
+        
+    }
+    .descricao span{
+        display: inline-block;
+    }
+    .barra1{
+        width: 90%;
+    } 
+    .barra2 {
+        width: 80%;
+    }
+    
+    .barra3 {
+        width: 70%;
+    }
+    
+    .barra4 {
+        width: 70%; 
+    }
+    .barra5 {
+        width: 60%; 
+    }
+    
+    .barra6 {
+        width: 40%; 
+    }
+    
+    .barra7 {
+        width: 85%;
+    } 
 
     .esquerda_cima,
     .esquerda_baixo {
