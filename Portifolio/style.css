@@ -121,7 +121,7 @@ section{
 }
 .container2{
     display: flex;
-    flex: 1;
+    flex: 1 1 100%;
     padding: 5px;
     margin: 10px;
     width: 60%;
