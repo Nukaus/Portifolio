@@ -133,14 +133,110 @@ section{
 h3{
     color: black;
     text-align: center;
+    text-decoration: underline;
+    font-style: italic;
 }
 .skills, .skills1, .skills2{
     background-image: linear-gradient(to right, #8AA6BF, #C5D0D9, #A9B9D9);
     width: 30%;
     flex: 1 1 100%;
     padding: 1.2rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0 1rem 1rem #262626;
     
+}
+/* Responsividade para tablets e celulares */
+@media (max-width: 1024px) {
+    .container,
+    .container2 {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /* Ajustes no header */
+    .header_content {
+        flex-direction:center;
+        align-items:start;
+    }
+
+    .menu ul {
+        flex-direction:inherit;
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu ul li {
+        margin: 1rem 0;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logo h2 {
+        font-size: 12px;
+    }
+
+    /* Ajusta o tamanho dos elementos na seção .detalhes */
+    .detalhes {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .esquerda_cima,
+    .esquerda_baixo {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* Ajusta os textos menores para melhor legibilidade */
+    .menu ul li a {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    section {
+        padding: 1rem;
+        box-shadow: 0 0 0.5px;
+    }
+
+    /* Ajusta o espaçamento interno */
+    .skills,
+    .skills1,
+    .skills2,
+    .skills3 {
+        padding: 0.5rem;
+    }
+}
+
+/* Responsividade para telas bem pequenas, como smartphones */
+@media (max-width: 480px) {
+    .menu ul li a {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.5rem;
+    }
+
+    /* Ajusta o conteúdo principal para ocupar toda a largura */
+    .container, .container2 {
+        width: 100%;
+    }
+
+    .inicio {
+        padding: 0.5rem;
+    }
+
+    .detalhes {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skills, .skills1, .skills2, .skills3 {
+        padding: 0.2rem;
+    }
 }
 
