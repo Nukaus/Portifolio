@@ -6,12 +6,16 @@
 }
 
 header{
-    position: sticky;
+    position: fixed;
+    top: 0;
     color: white;
     background-image:linear-gradient(to top,#262626, #0D0D0D);
     width: 100%;
     padding: 1rem;
-    box-shadow: 0 0 1.5rem #0D0D0D;
+    box-shadow: 0 0 1rem #0D0D0D;
+}
+main{
+    margin-top: 60px;
 }
 .header_content {
     display: flex;
@@ -36,7 +40,7 @@ header{
 }
 
 .menu ul li {
-    margin: 0 2rem; 
+    margin: 0 1rem; 
 }
 
 .menu ul li a {
