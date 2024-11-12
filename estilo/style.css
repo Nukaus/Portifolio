@@ -238,14 +238,14 @@ h3{
 /* Responsividade para celulares */
 @media (max-width: 768px) {
     main{
-        margin-top: 20rem;
+        margin-top: 7rem;
     }
     .logo h1 {
         font-size: 0.8em;
     }
 
     .logo h2 {
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     /* Ajusta o tamanho dos elementos na seção .detalhes */
@@ -301,7 +301,7 @@ h3{
 
     /* Ajusta os textos menores para melhor legibilidade */
     .menu ul li a {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0.5rem 0.4rem;
     }
 
