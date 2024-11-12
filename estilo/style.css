@@ -198,7 +198,7 @@ h3{
     text-align: center;
     padding: 0.2rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0.2rem 0.2rem #F26800;
+    box-shadow: 0 0.2rem 0.2rem #e48842;
     
 }
 .skills, .skills1, .skills2{
@@ -206,7 +206,7 @@ h3{
     flex: 1 1 100%;
     padding: 1.2rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0.2rem 0.2rem #F26800;
+    box-shadow: 0 0.2rem 0.2rem #e48842;
     
 }
 /* Responsividade para tablets e celulares */
@@ -238,7 +238,7 @@ h3{
 /* Responsividade para celulares */
 @media (max-width: 768px) {
     main{
-        margin-top: 6.1rem;
+        margin-top: 5.8rem;
     }
     .logo h1 {
         font-size: 0.8em;
