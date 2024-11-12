@@ -238,7 +238,7 @@ h3{
 /* Responsividade para celulares */
 @media (max-width: 768px) {
     main{
-        margin-top: 6.3rem;
+        margin-top: 6.1rem;
     }
     .logo h1 {
         font-size: 0.8em;
