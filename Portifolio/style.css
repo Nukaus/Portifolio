@@ -283,8 +283,7 @@ h3{
 
     .esquerda_cima,
     .esquerda_baixo {
-        height: 50%;
-        padding: 0%;
+        width: 100%;
     }
 
     /* Ajusta os textos menores para melhor legibilidade */
