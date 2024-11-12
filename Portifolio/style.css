@@ -168,7 +168,7 @@ section{
     flex: 1 1 100%;
     padding: 5px;
     margin: 10px;
-    width: 60%;
+    width: 90%;
     justify-content: space-between;
     gap: 10px;
 }
@@ -184,12 +184,10 @@ h3{
 }
 .esquerda_cima, .esquerda_baixo{
     background-color: #c9c9c9;
-    flex: 1 1 10%;
     text-align: center;
     padding: 0.2rem;
     border-radius: 0.5rem;
     box-shadow: 0 1rem 1rem #262626;
-
 }
 .skills, .skills1, .skills2{
     background-image: linear-gradient(to right, #8AA6BF, #C5D0D9, #A9B9D9);
@@ -239,6 +237,7 @@ h3{
     .detalhes {
         flex-direction: column;
         padding: 0.5rem;
+        
     }
     .grafico{
         flex-direction: column;
@@ -284,8 +283,8 @@ h3{
 
     .esquerda_cima,
     .esquerda_baixo {
-        width: 100%;
-        margin-bottom: 1rem;
+        height: 50%;
+        padding: 0%;
     }
 
     /* Ajusta os textos menores para melhor legibilidade */
