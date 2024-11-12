@@ -238,14 +238,14 @@ h3{
 /* Responsividade para celulares */
 @media (max-width: 768px) {
     main{
-        margin-top: 8rem;
+        margin-top: 20rem;
     }
     .logo h1 {
-        font-size: 20px;
+        font-size: 0.8em;
     }
 
     .logo h2 {
-        font-size: 12px;
+        font-size: 0.7em;
     }
 
     /* Ajusta o tamanho dos elementos na seção .detalhes */
