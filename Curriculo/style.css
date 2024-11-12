@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to left, #00747C,#CACACA, #00BBC9);
+}
+h1{
+    text-shadow: 2px 2px 2px #878787;
+    color: #202022;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+main{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+    border: 0.1em black solid;
+}
+.subtitulos{
+    font: italic bolder 1em 'Times New Roman';
+}
+.data{
+    font-style: italic;
+}
