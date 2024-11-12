@@ -15,7 +15,7 @@ header{
     box-shadow: 0 0 1rem #0D0D0D;
 }
 main{
-    margin-top: 70px;
+    margin-top: 4.4rem;
 }
 .header_content {
     display: flex;
@@ -225,6 +225,9 @@ h3{
 
 /* Responsividade para celulares */
 @media (max-width: 768px) {
+    main{
+        margin-top: 5.8rem;
+    }
     .logo h1 {
         font-size: 20px;
     }
@@ -249,8 +252,6 @@ h3{
         align-items: center;
         padding: 0 0.5rem;
         border-radius: 0.5rem;
-        
-        
     }
     .descricao span{
         display: inline-block;
