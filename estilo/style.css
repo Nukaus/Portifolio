@@ -241,11 +241,11 @@ h3{
         margin-top: 7rem;
     }
     .logo h1 {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .logo h2 {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     /* Ajusta o tamanho dos elementos na seção .detalhes */
@@ -301,7 +301,7 @@ h3{
 
     /* Ajusta os textos menores para melhor legibilidade */
     .menu ul li a {
-        font-size: 0.6rem;
+        font-size: 0.3rem;
         padding: 0.5rem 0.4rem;
     }
 
