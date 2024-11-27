@@ -224,6 +224,9 @@ footer{
 /*RESPONSIVIDADE*/
 /*TABLETS E CELULARES*/
 @media (max-width: 1024px){
+main{
+     margin-top: 7rem;
+}
 .apresentacao{
     width: 100%;
 }
@@ -302,43 +305,46 @@ section#skills{
 /*CELULARES*/
 @media (max-width: 768px){
 /*MELHOR LEGIBILIDADE*/
-    section {
-        padding: 1rem;
-        box-shadow: 0 0 0.5px;
-    }
-    .skill {
-        padding: 0.5rem;
-    }
+section {
+    padding: 1rem;
+    box-shadow: 0 0 0.5px;
+}
+.skill {
+    padding: 0.5rem;
+}
 }
 
 /*CELULARES MENORES*/
 @media (max-width: 500px){
-    section#sobremim, section#detalhes {
-        width: 100%;
-        padding: 0;
-       
-    }
-    section#skills{
-        padding: 0.2rem;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .skill{
-        margin: 1px;
-        padding: 0;
-        
-    }
-    .esquerda_baixo, .direita_baixo{
-        padding: 0;
-        width: 94%;
-        margin: auto;
-    }
-    .grafico{
-        padding: 0;
-    }
-    .barra{
-        padding: 0;
-    }
+main{
+    margin-top: 7rem;
+}
+section#sobremim, section#detalhes {
+    width: 100%;
+    padding: 0;
+
+}
+section#skills{
+    padding: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    margin: 1px;
+    padding: 0;
+    
+}
+.esquerda_baixo, .direita_baixo{
+    padding: 0;
+    width: 94%;
+    margin: auto;
+}
+.grafico{
+    padding: 0;
+}
+.barra{
+    padding: 0;
+}
 
 }
 
