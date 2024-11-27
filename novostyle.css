@@ -227,6 +227,11 @@ footer{
 main{
      margin-top: 8rem;
 }
+nav{
+    font-size: 1em;
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+}
 .apresentacao{
     width: 100%;
 }
