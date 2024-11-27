@@ -224,7 +224,7 @@ footer{
 /*TABLETS E CELULARES*/
 @media (max-width: 1024px){
 main{
-     margin-top: 8rem;
+     margin-top: 5rem;
 }
 nav{
     font-size: 1em;
@@ -320,7 +320,7 @@ section#skills{
 /*CELULARES MENORES*/
 @media (max-width: 500px){
 main{
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 section#sobremim, section#detalhes {
     width: 100%;
@@ -328,7 +328,7 @@ section#sobremim, section#detalhes {
 
 }
 div#habilidades{
-    width: 100%;
+    
     margin: 0;
 }
 section#skills{
@@ -353,4 +353,5 @@ section#skills{
     padding: 0;
 }
 }
+
 
