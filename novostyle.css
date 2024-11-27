@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+/*CONFIG. GLOBAIS*/
 *{
     margin: 0;
     padding: 0;
@@ -20,13 +21,16 @@
     --font-barra: "Faculty Glyphic", serif;
     
 }
+/*CORPO*/
 body{
     font-family: var(--font-padrao);
 }
+
+/*CABEÇALHO E NAVEGAÇÃO*/
 header{
     font-family: var(--font-destaque);
     position: fixed;
-    top: 0;
+    top: -1px;
     width: 100%;
     padding: 10px;
     background-image: linear-gradient(to top, #000000, #0C0F3E, #262A69);
@@ -45,9 +49,11 @@ nav{
     display: flex;
     align-items: flex-end;
     margin-left: auto;
+    margin-right: 15px;
 
 }
 nav > a{
+    color: white;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 1.2em;
@@ -59,18 +65,13 @@ nav > a:hover{
     border-radius: 20px;
     transition: 0.2s;
 }
-nav > a:visited{
-    color: white;
-}
-body{
-    font-family: var(--font-padrao);
-}
 main{
-    margin: 75px auto 0 auto;
+    margin: 75px auto 0px auto;
     background-image: linear-gradient(to right, #262A69, #00BBC9, #00BBC9);
+    width: 100%;
 }
+/*PRIMEIRA SEÇÃO*/
 section#sobremim{
-    box-shadow: 2px -1px 7px 1px black;
     margin-bottom: 3px;
 }
 .apresentacao{
@@ -97,7 +98,9 @@ img{
     border-radius: 50%;
     box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.404);
 }
+/*DIV HABILIDADES*/
 div#habilidades{
+    width: 100%;
     font-family: var(--font-destaque);
     font-size: 2em;
     text-align: center;
@@ -106,29 +109,27 @@ div#habilidades{
     margin-bottom: 3px;
     box-shadow: 0px 1px 4px 1px black;
 }
+
+/*SEGUNDA SEÇÃO*/
 section#detalhes{
+    width: 100%;
     background-image: linear-gradient(to right,  #262A69, #00BBC9, #00BBC9);
     margin: auto;
     display: flex;
-    padding: 10px;
 }
-section#detalhes > .esquerda_baixo, .conteiner2, .direita_baixo{
-    flex: 1 1 100%;
-    padding: 10px 15px 0px 10px;
+section#detalhes > .esquerda_baixo, section#skills, .direita_baixo{
+    margin: 10px;
 }
 .esquerda_baixo, .direita_baixo{
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.356);
     border-radius: 5px;
-    
     text-align: center;
 }
 .hard_soft{
     font-family: var(--font-destaque);
     font-weight: normal;
     text-align: center;
-    text-decoration: underline;
     color: var(--cor5);
-    text-shadow: white;
     font-style: italic;
     font-size: 2em;
 }
@@ -150,12 +151,14 @@ h3{
     text-align: center;
     font-size: 1.5em;
     color: var(--cor5);
-    text-shadow: white;
     font-style: italic;
 }
+
+/*GRÁFIO*/
 .grafico {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     gap: 10px;
     width: 100%; 
     height: 300px;
@@ -205,11 +208,136 @@ h3{
 
 .barra7 {
     height: 85%;
-} 
+}
+
+/*FOOTER*/
 footer{
     font-family: var(--font-destaque);
     color: white;
     background-color: var(--cor5);
     text-align: center;
     padding: 4px;
+    width: 100%;
 }
+
+/*RESPONSIVIDADE*/
+/*TABLETS E CELULARES*/
+@media (max-width: 1024px){
+.apresentacao{
+    width: 100%;
+}
+.apresentacao{
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+section#detalhes {
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.grafico{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.barra{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem ;
+}
+.descricao span{
+    display: inline-block;
+}
+.barra1{
+    width: 90%;
+} 
+.barra2 {
+    width: 80%;
+}
+
+.barra3 {
+    width: 70%;
+}
+
+.barra4 {
+    width: 70%; 
+}
+.barra5 {
+    width: 60%; 
+}
+
+.barra6 {
+    width: 40%; 
+}
+
+.barra7 {
+    width: 85%;
+} 
+
+.esquerda_cima,
+.esquerda_baixo {
+    width: 100%;
+}
+section#sobremim, section#detalhes {
+    width: 100%;
+    padding: 0;
+   
+}
+section#skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.esquerda_baixo, .direita_baixo{
+    padding: 0;
+    width: 94%;
+    margin: auto;
+}
+.grafico{
+    padding: 0;
+}
+}
+
+/*CELULARES*/
+@media (max-width: 768px){
+/*MELHOR LEGIBILIDADE*/
+    section {
+        padding: 1rem;
+        box-shadow: 0 0 0.5px;
+    }
+    .skill {
+        padding: 0.5rem;
+    }
+}
+
+/*CELULARES MENORES*/
+@media (max-width: 500px){
+    section#sobremim, section#detalhes {
+        width: 100%;
+        padding: 0;
+       
+    }
+    section#skills{
+        padding: 0.2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skill{
+        margin: 1px;
+        padding: 0;
+        
+    }
+    .esquerda_baixo, .direita_baixo{
+        padding: 0;
+        width: 94%;
+        margin: auto;
+    }
+    .grafico{
+        padding: 0;
+    }
+    .barra{
+        padding: 0;
+    }
+
+}
+
