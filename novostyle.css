@@ -320,7 +320,12 @@ section#skills{
 /*CELULARES MENORES*/
 @media (max-width: 500px){
 main{
-    margin-top: 7rem;
+    margin-top: 8rem;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
 }
 nav > a{
     font-size: 1rem;
