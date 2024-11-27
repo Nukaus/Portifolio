@@ -124,6 +124,7 @@ section#detalhes > .esquerda_baixo, section#skills, .direita_baixo{
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.356);
     border-radius: 5px;
     text-align: center;
+    padding: 10px;
 }
 .hard_soft{
     font-family: var(--font-destaque);
