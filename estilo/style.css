@@ -76,8 +76,11 @@ p{
     color: #A3CCAB;
 }
 .imagem{
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 265px;
+}
+img{
+    border-radius: 50%;
 }
 
 .inicio{
@@ -95,7 +98,7 @@ p{
     width: 80%;
 }
 .sobre, .imagem, .objetivos{
-    flex-wrap: wrap;
+
     color: black;
     flex: 1 1 100%;
     padding: 0.5rem;

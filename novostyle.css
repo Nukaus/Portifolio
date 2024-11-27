@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor0:#8387BE;
+    --cor1:#00BBC9;
+    --cor2:#CACACA;
+    --cor3:#262A69;
+    --cor4:#0C0F3E;
+    --cor5:#010533;
+    --cor6:#000000;
+
+    --font-padrao:  Arial, Helvetica, sans-serif;
+    --font-destaque: "Bebas Neue", serif;
+    --font-barra: "Faculty Glyphic", serif;
+    
+}
+body{
+    font-family: var(--font-padrao);
+}
+header{
+    font-family: var(--font-destaque);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to top, #000000, #0C0F3E, #262A69);
+    color: white;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.356);
+    display: flex;
+}
+div#nome > p, h1{
+    font-weight: normal;
+    text-indent: 0px;
+}
+div#nome > p{
+    color: rgba(255, 255, 255, 0.452);
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+
+}
+nav > a{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+nav > a:visited{
+    color: white;
+}
+body{
+    font-family: var(--font-padrao);
+}
+main{
+    margin: 75px auto 0 auto;
+    background-image: linear-gradient(to right, #262A69, #00BBC9, #00BBC9);
+}
+section#sobremim{
+    box-shadow: 2px -1px 7px 1px black;
+    margin-bottom: 3px;
+}
+.apresentacao{
+    width: 1000px;
+    margin: auto;
+    display: flex;  
+}
+.sobre, .minha-foto, .sobre2{
+    flex: 1 1 100%;
+    padding: 20px;
+}
+.h1_sobre{
+    font-size: 1.5em;
+    font-family: var(--font-destaque);
+    text-indent: 0px;
+    color: var(--cor2);
+}
+p{
+    text-indent: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.404);
+}
+div#habilidades{
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to left, #00747C, #00BBC9, #00747C);
+    margin-bottom: 3px;
+    box-shadow: 0px 1px 4px 1px black;
+}
+section#detalhes{
+    background-image: linear-gradient(to right,  #262A69, #00BBC9, #00BBC9);
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+section#detalhes > .esquerda_baixo, .conteiner2, .direita_baixo{
+    flex: 1 1 100%;
+    padding: 10px 15px 0px 10px;
+}
+.esquerda_baixo, .direita_baixo{
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.356);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+.hard_soft{
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--cor5);
+    text-shadow: white;
+    font-style: italic;
+    font-size: 2em;
+}
+section#detalhes > section#skills{
+    display: flex;
+   
+}
+section#skills > .skill{
+    flex: 1 1 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.356);
+    margin: 10px;
+    border-radius: 10px 0 10px 0;
+    text-align: justify;
+}
+h3{
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--cor5);
+    text-shadow: white;
+    font-style: italic;
+}
+.grafico {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%; 
+    height: 300px;
+    padding: 10px;
+}
+
+.descricao span{
+    color: white;
+    display: block;
+    
+    font: normal 0.4em "Faculty Glyphic", sans-serif;
+}
+.porcentagem{
+    padding: 9px;
+    color: white;
+    font: normal 0.8em "Faculty Glyphic", sans-serif;
+    text-indent: 0px;
+}
+.barra {
+    width: 3rem; 
+    background-color: var(--cor6);
+    border-radius: 7px 7px 0 0;
+
+}
+.barra1 {
+    height: 90%;
+}
+
+.barra2 {
+    height: 80%;
+}
+
+.barra3 {
+    height: 70%;
+}
+
+.barra4 {
+    height: 70%; 
+}
+.barra5 {
+    height: 60%; 
+}
+
+.barra6 {
+    height: 40%; 
+}
+
+.barra7 {
+    height: 85%;
+} 
+footer{
+    font-family: var(--font-destaque);
+    color: white;
+    background-color: var(--cor5);
+    text-align: center;
+    padding: 4px;
+}
