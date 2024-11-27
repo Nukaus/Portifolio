@@ -41,10 +41,10 @@ header{
 }
 div#nome > p, h1{
     font-weight: normal;
-    text-indent: 0px;
 }
 div#nome > p{
     color: rgba(255, 255, 255, 0.452);
+    text-indent: 10px;
 }
 nav{
     display: flex;
@@ -320,17 +320,16 @@ section#skills{
 /*CELULARES MENORES*/
 @media (max-width: 500px){
 main{
-    margin-top: 8rem;
+    margin-top: 6.5rem;
 }
-nav{
+header{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
 }
 nav > a{
     font-size: 1rem;
-    padding: 0.4rem;
-    margin-right: 0.4rem;
+    margin: 0.5rem;
+    
 }
 section#sobremim, section#detalhes {
     width: 100%;
