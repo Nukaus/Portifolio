@@ -320,7 +320,7 @@ section#skills{
 /*CELULARES MENORES*/
 @media (max-width: 500px){
 main{
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 section#sobremim, section#detalhes {
     width: 100%;
