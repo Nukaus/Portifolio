@@ -225,7 +225,7 @@ footer{
 /*TABLETS E CELULARES*/
 @media (max-width: 1024px){
 main{
-     margin-top: 7rem;
+     margin-top: 8rem;
 }
 .apresentacao{
     width: 100%;
@@ -317,7 +317,7 @@ section {
 /*CELULARES MENORES*/
 @media (max-width: 500px){
 main{
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
 section#sobremim, section#detalhes {
     width: 100%;
