@@ -66,8 +66,7 @@ nav > a:hover{
     background-color: var(--cor3);
     padding: 10px;
     border-radius: 10px;
-    text-decoration: underline;
-    
+    text-decoration: underline;    
 }
 main{
     margin: 75px auto 10px auto;
