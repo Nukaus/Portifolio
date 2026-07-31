@@ -7,12 +7,12 @@ import SectionHeading from "./section-heading"
 
 const projects = [
   {
-    title: "Universo Digital - Loja & Serviços",
+    title: "Digital Universe - Loja & Serviços",
     image: "/projects/digital-universe.png",
     description:
       "Um site moderno e responsivo para apresentar serviços freelancers — manutenção de celulares e computadores — junto com a venda de eletrônicos, contando com uma galeria de trabalhos e canal de contato direto.",
     tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-    demo: "https://nukaus.github.io/",
+    demo: "https://dunx.vercel.app/",
     code: "https://github.com/Nukaus/projetos_pessoais",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Sistema de Chamados Web (Acadêmico)",
-    image: null,
+    image: "/projects/chamados-web.png",
     description:
       "Um projeto acadêmico para gerenciar solicitações de suporte técnico, apresentando cadastro e controle de usuários, uma interface responsiva e integração com MySQL.",
     tags: ["HTML5", "Bootstrap", "PHP", "Java", "AJAX", "MySQL", "Git"],
