@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2">
             {/* CORREÇÃO DO BOTÃO: Começa com hidden (escondido) e ganha inline-flex em telas grandes (md:) */}
             <a
-              href="/documentos/curriculo-analista-cristianopereirasantos.pdf"
+              href="/documentos/Currículo - Cristiano Pereira Santos.pdf"
               download="cristiano-pereira-santos-resume.pdf"
               className="group hidden items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_30px_-8px_var(--primary)] transition-all hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background md:inline-flex"
             >
@@ -118,7 +118,7 @@ export default function Navbar() {
 
                 {/* Botão de Currículo interno do Menu Hambúrguer */}
                 <a
-                  href="/documentos/curriculo-analista-cristianopereirasantos.pdf"
+                  href="/documentos/Currículo - Cristiano Pereira Santos.pdf"
                   download="cristiano-pereira-santos-resume.pdf"
                   onClick={() => setOpen(false)}
                   className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 text-base font-medium text-primary-foreground shadow-sm"
