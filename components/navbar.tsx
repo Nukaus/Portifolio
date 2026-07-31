@@ -28,7 +28,7 @@ export default function Navbar() {
     <>
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
       >
         Pular para o conteúdo principal
       </a>
@@ -46,6 +46,7 @@ export default function Navbar() {
             <span className="text-sm font-semibold tracking-tight">Cristiano Santos</span>
           </a>
 
+          {/* Links Desktop */}
           <div className="hidden items-center gap-1 md:flex">
             {navLinks.map((link) => (
               <a
@@ -59,14 +60,17 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
+            {/* CORREÇÃO DO BOTÃO: Começa com hidden (escondido) e ganha inline-flex em telas grandes (md:) */}
             <a
               href="/documentos/curriculo-analista-cristianopereirasantos.pdf"
               download="cristiano-pereira-santos-resume.pdf"
-              className="group inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_30px_-8px_var(--primary)] transition-all hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
+              className="group hidden items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_30px_-8px_var(--primary)] transition-all hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background md:inline-flex"
             >
               <Download className="h-4 w-4" aria-hidden="true" />
               Currículo
             </a>
+
+            {/* Menu Hambúrguer */}
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
@@ -79,6 +83,7 @@ export default function Navbar() {
           </div>
         </nav>
 
+        {/* Menu Mobile */}
         <AnimatePresence>
           {open ? (
             <motion.div
@@ -93,17 +98,30 @@ export default function Navbar() {
                   <a
                     key={link.href}
                     href={link.href}
-                    onClick={() => setOpen(false)}
+                    onClick={(e) => {
+                      e.preventDefault()
+                      setOpen(false)
+                      
+                      // Executa a rolagem após fechar o menu com um pequeno atraso (timeout)
+                      setTimeout(() => {
+                        const target = document.querySelector(link.href)
+                        if (target) {
+                          target.scrollIntoView({ behavior: "smooth", block: "start" })
+                        }
+                      }, 250)
+                    }}
                     className="rounded-lg px-4 py-3 text-base text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
                   >
                     {link.label}
                   </a>
                 ))}
+
+                {/* Botão de Currículo interno do Menu Hambúrguer */}
                 <a
                   href="/documentos/curriculo-analista-cristianopereirasantos.pdf"
                   download="cristiano-pereira-santos-resume.pdf"
                   onClick={() => setOpen(false)}
-                  className="mt-1 inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-3 text-base font-medium text-primary-foreground"
+                  className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 text-base font-medium text-primary-foreground shadow-sm"
                 >
                   <Download className="h-4 w-4" aria-hidden="true" />
                   Baixar Currículo
