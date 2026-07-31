@@ -100,8 +100,8 @@ export default function Navbar() {
                   </a>
                 ))}
                 <a
-                  href="/cristiano-pereira-santos-resume.pdf"
-                  download
+                  href="/documentos/curriculo-analista-cristianopereirasantos.pdf"
+                  download="cristiano-pereira-santos-resume.pdf"
                   onClick={() => setOpen(false)}
                   className="mt-1 inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-3 text-base font-medium text-primary-foreground"
                 >
