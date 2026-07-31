@@ -110,7 +110,7 @@ export default function Hero() {
             className="mt-9 flex flex-col gap-3 sm:flex-row"
           >
             <a
-              href="/cristiano-pereira-santos-resume.pdf"
+              href="/documentos/cristiano-pereira-santos-resume.pdf"
               download="cristiano-pereira-santos-resume.pdf"
               className="group inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_30px_-8px_var(--primary)] transition-all hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
             >
