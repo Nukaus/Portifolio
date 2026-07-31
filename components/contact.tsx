@@ -105,7 +105,7 @@ export default function Contact() {
 
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a
-                href="./cristiano-pereira-santos-resume.pdf"
+                href="/cristiano-pereira-santos-resume.pdf"
                 download
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_30px_-8px_var(--primary)] transition-all hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-ring"
               >
